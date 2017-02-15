@@ -1,0 +1,100 @@
+
+* { box-sizing: border-box; }
+
+body {  
+position: relative;
+background-color: #fffeea;
+color: #34495e; }
+
+/**** Contact page ****/
+
+ .jumbotron { 
+  background-image: url("../img/contact-me.jpg");
+  background-size: cover;   }
+ 
+ .col-md-4 span:hover { 
+  color: #fea222; }
+
+ #carousel-example-generic {
+  padding-top: 10px; 
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+ .carousel { 
+  margin-left: -15px;
+  margin-right: -15px; }
+
+ .carousel-caption {
+  color: black; 
+  margin: 10px;  }
+
+ .img-responsive {
+  padding: 10px; }
+
+/* about page*/
+ .header {
+  margin: 40px;  }
+
+ h1 { 
+ text-align: center;
+ color: black;  }
+
+  #about {
+ font-size: 1.5em; }
+
+ #faq {
+  background-image: url("../img/nature-landscape.jpg");
+  font-size: 1.5em; }
+
+ .panel-heading li {
+  font-size: 1.5em; }
+
+ #contact{ 
+  background-image: url("../img/contact-me.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  padding:100px;
+  padding-top: 50px;
+  height: 100%;  
+  font-size: 1.5em;  }
+
+ .image-about-me { 
+  width: 100%; }
+    
+ #modalembed { 
+  height: 500px;
+  width: 100%;
+  padding: 10px; }
+
+ a:link { 
+  color: black; }
+ a:visited {
+  color: #590; }
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display:none;
+}
+.proj-title {
+  font-weight:100;
+}
+  
+#map {
+  height: 300px;
+  width: 100%;
+}
